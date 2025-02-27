@@ -1,0 +1,39 @@
+.category-item {
+  padding-top: 30px;
+}
+
+.category-item__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.category-item__title a {
+  font-size: 30px;
+  line-height: 45px;
+  padding-bottom: 24px;
+}
+
+.category-item__button {
+  text-align: center;
+}
+
+.category-item__button a {
+  border: 1px solid #4f46e5;
+  border-radius: 8px;
+  padding: 5.5px 45px;
+  font-size: 14px;
+  color: #4f46e5;
+  line-height: 30px;
+  display: inline-flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.category-item__button a:hover {
+  color: #f5f5f7;
+  background: #4f46e5;
+}
+
+.category-item:first-child {
+  padding-top: 0;
+}

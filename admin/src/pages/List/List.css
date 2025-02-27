@@ -1,0 +1,105 @@
+.list-page {
+  width: 80%;
+  background: #fff;
+  margin: 20px 20px 20px 0px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.04);
+}
+
+.list-page__search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px 20px 0 0;
+  position: relative;
+}
+
+.list-page__search-icon {
+  height: 100%;
+  padding: 6px;
+  position: absolute;
+  top: 0;
+  right: 170px;
+}
+
+.list-page__search-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #212121;
+}
+
+.list-page__search input {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #212121;
+  border-radius: 50px;
+  padding-left: 30px;
+  outline: none;
+}
+
+::placeholder {
+  color: #212121;
+}
+
+.list-page__table {
+  padding: 20px;
+}
+
+.list-page__table-format {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr 1fr 1fr 3fr 0.5fr 1fr 1fr 0.5fr;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  border-bottom: 1px solid #212121;
+}
+
+.list-page__table-format.list-page__title {
+  color: #fff;
+  background: #212121;
+  padding: 15px 10px;
+  font-size: 13px;
+}
+
+.list-page__table-format:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+}
+
+.list-page__table-format:last-child {
+  border-bottom: none;
+}
+
+.list-page__table-format img {
+  width: 40px;
+  margin: auto;
+}
+
+.list-page__edit-btn,
+.list-page__remove-btn {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.list-page__edit-btn {
+  color: #1da1f2;
+}
+
+.list-page__remove-btn {
+  color: #e4405f;
+}
+
+.list-page__edit-btn svg,
+.list-page__remove-btn svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

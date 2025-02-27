@@ -1,0 +1,19 @@
+.header {
+  color: #f5f5f7;
+  background: #212121;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logout-btn {
+  width: 30px;
+  cursor: pointer;
+}
+
+.header__logout-btn svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

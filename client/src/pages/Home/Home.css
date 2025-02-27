@@ -1,0 +1,44 @@
+.home-page {
+  width: 100%;
+}
+
+.home-page__content {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.home-page__banner {
+  margin: 80px 0 86px;
+}
+
+.home-page__banner img {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .home-page__content {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 900px) {
+  .home-page__content {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-page__content {
+    max-width: 300px;
+  }
+
+  .home-page__banner {
+    margin: 0 0 40px;
+  }
+
+  .home-page__banner img {
+    display: none;
+  }
+}

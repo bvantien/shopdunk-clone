@@ -1,0 +1,156 @@
+.edit-page {
+  width: 80%;
+  background: #fff;
+  margin: 20px 20px 20px 0px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.04);
+}
+
+.edit-page__back-btn {
+  width: 25px;
+  margin: 20px 0 0 20px;
+  cursor: pointer;
+}
+
+.edit-page__back-btn svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.edit-page__form {
+  padding: 20px;
+}
+
+.edit-page__image label {
+  width: 150px;
+  cursor: pointer;
+}
+
+.edit-page__image label img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.edit-page__name input {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.edit-page__category select,
+.edit-page__series select,
+.edit-page__capacity input {
+  width: 190px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.edit-page__category select,
+.edit-page__series select {
+  padding-left: 5px;
+}
+
+.edit-page__capacity input {
+  padding: 10px;
+}
+
+.edit-page__color {
+  display: flex;
+  align-items: center;
+}
+
+.edit-page__color input {
+  width: 140px;
+  height: 40px;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.edit-page__color label {
+  display: inline-block;
+  width: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.edit-page__color label img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.edit-page__remove-btn,
+.edit-page__add-btn {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.edit-page__remove-btn {
+  background: #e62222;
+}
+
+.edit-page__add-btn {
+  background: #3aa856;
+}
+
+.edit-page__remove-btn svg,
+.edit-page__add-btn svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.edit-page__discount input,
+.edit-page__old-price input,
+.edit-page__current-price input {
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.edit-page__submit-btn {
+  color: #fff;
+  background: #212121;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.edit-page__submit-btn:disabled {
+  color: #1c1a1c;
+  background: #aaaaaa;
+  cursor: not-allowed;
+}
+
+.edit-page__name input:focus,
+.edit-page__category select:focus,
+.edit-page__series select:focus,
+.edit-page__capacity input:focus,
+.edit-page__color input:focus,
+.edit-page__discount input:focus,
+.edit-page__old-price input:focus,
+.edit-page__current-price input:focus {
+  border: 2px solid #4f46e5;
+}

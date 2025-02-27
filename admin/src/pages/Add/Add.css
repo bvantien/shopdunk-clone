@@ -1,0 +1,138 @@
+.add-page {
+  width: 80%;
+  background: #fff;
+  margin: 20px 20px 20px 0px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.04);
+}
+
+.add-page__form {
+  padding: 20px;
+}
+
+.add-page__image label {
+  width: 150px;
+  cursor: pointer;
+}
+
+.add-page__image label img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.add-page__name input {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.add-page__category select,
+.add-page__series select,
+.add-page__capacity input {
+  width: 190px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.add-page__category select,
+.add-page__series select {
+  padding-left: 5px;
+}
+
+.add-page__capacity input {
+  padding: 10px;
+}
+
+.add-page__color {
+  display: flex;
+  align-items: center;
+}
+
+.add-page__color input {
+  width: 140px;
+  height: 40px;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.add-page__color label {
+  display: inline-block;
+  width: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.add-page__color label img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.add-page__remove-btn,
+.add-page__add-btn {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.add-page__remove-btn {
+  background: #e62222;
+}
+
+.add-page__add-btn {
+  background: #3aa856;
+}
+
+.add-page__remove-btn svg,
+.add-page__add-btn svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.add-page__discount input,
+.add-page__old-price input,
+.add-page__current-price input {
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.add-page__submit-btn {
+  color: #fff;
+  background: #212121;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.add-page__name input:focus,
+.add-page__category select:focus,
+.add-page__series select:focus,
+.add-page__capacity input:focus,
+.add-page__color input:focus,
+.add-page__discount input:focus,
+.add-page__old-price input:focus,
+.add-page__current-price input:focus {
+  border: 2px solid #4f46e5;
+}

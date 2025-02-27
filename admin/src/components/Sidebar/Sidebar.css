@@ -1,0 +1,41 @@
+.sidebar {
+  background: #fff;
+  width: 20%;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.04);
+}
+
+.sidebar__options {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: background 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.sidebar-option svg {
+  width: 25px;
+  height: 25px;
+}
+
+.sidebar-option span {
+  line-height: 25px;
+}
+
+.sidebar-option:hover {
+  background: #f4f4f4;
+}
+
+.sidebar-option.active {
+  color: #fff;
+  background: #212121;
+}
